@@ -1,13 +1,16 @@
-function DarkModeButton({ darkMode, setDarkMode }) {
+import { Button } from "@material-tailwind/react";
+
+export default function DarkModeButton({ darkMode, setDarkMode }) {
   return (
-    <button
+    <Button
+      color={darkMode ? "light-blue" : "blue"}
       onClick={() => setDarkMode(!darkMode)}
-      className='absolute top-4 right-4 px-4 py-2 bg-gray-300 dark:bg-gray-700 text-black dark:text-white rounded shadow'
+      className={`border border-gray-300 dark:border-gray-600 
+                  ${darkMode ? "text-white" : "text-black"} 
+                  px-6 py-3 rounded-lg font-semibold shadow-md 
+                  transition duration-300 ease-in-out transform hover:scale-105`}
     >
-      Toggle Dark Mode
-    </button>
+      {darkMode ? "Light Mode" : "Dark Mode"}
+    </Button>
   );
 }
-
-export default DarkModeButton;
-
