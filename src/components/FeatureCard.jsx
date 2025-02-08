@@ -9,7 +9,7 @@ export default function FeatureCard({
   projectList
 }) {
   return (
-    <Card className='max-w-sm w-full bg-white shadow-lg rounded-2xl dark:bg-gray-800 p-6'>
+    <Card className='max-w-sm w-full bg-white shadow-lg dark:bg-gray-800 p-6'>
       <CardBody className='flex flex-col items-center'>
         <Typography
           variant='h5'
