@@ -1,4 +1,8 @@
-# My Portfolio Website
+
+
+https://github.com/user-attachments/assets/b8348c29-2bc9-46ae-8d40-eb123056ec07
+
+ # My Portfolio Website
 
 This is a personal portfolio built using the [Vite React Template](https://vitejs.dev/) featuring a Previous Work Section, About Me and Contact Me. This project aslo utilizes a button to turn on/off dark mode. 
 
